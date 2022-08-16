@@ -29,7 +29,7 @@ nav{
 nav ul li{
   list-style: none;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 nav ul li a{
@@ -42,16 +42,16 @@ nav ul li a{
 
 
 
-.hero2{
+.profile{
   position:relative;
   width:100px;
   height:500px;
   background:none;
   left:50px;
-  top:1000px;
+  top:100px;
 }
 
-.hero2{
+.profile{
   font-family: 'Roboto' sans-serif;
   color: #000000;
   font-size: 20px;
@@ -59,9 +59,9 @@ nav ul li a{
   text-transform: uppercase;
 }
 
-.hero2{
-  width: 300px;
-  border: 15px solid green;
+.profile{
+  width: 600px;
+  border: 15px solid #FF3333;
   padding: 50px;
   margin: 20px;
 }
@@ -73,7 +73,7 @@ nav ul li a{
   height: 500px;
   background: none;
   left: 55px;
-  top: -770px;
+  top: -700px;
 }
 
  .title{
@@ -89,8 +89,8 @@ nav ul li a{
   width: 500px;
   height: 500px;
   background: none;
-  left: 31px;
-  top: -680px;
+  left: 50px;
+  top: -640px;
 }
 
 .intro{
@@ -135,9 +135,33 @@ margin: 300px;
 
 .container{
   position: relative;
-  width: 725px;
-  height: 400px;
+  width: 800px;
+  height: 350px;
   background: none;
-  left: -280px;
+  left: -270px;
   top: -100px;
+}
+
+
+.profile{
+  width: 100px;
+  height: 350px;
+  position: absolute;
+  top: 1000px;
+  left: 100px;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile li a{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -1100px;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
