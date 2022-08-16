@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  background: url(lamppu.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+
+nav{
+   width: 100%;
+   position: absolute;
+   top: 0;
+   left: 1150px;
+   padding: 20px 8%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+nav ul li a{
+  font-family: 'Roboto' sans-serif;
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+
+
+.hero2{
+  position:relative;
+  width:100px;
+  height:500px;
+  background:none;
+  left:50px;
+  top:1000px;
+}
+
+.hero2{
+  font-family: 'Roboto' sans-serif;
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+}
+
+.hero2{
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+.title{
+  position:relative;
+  width: 700px;
+  height: 500px;
+  background: none;
+  left: 55px;
+  top: -770px;
+}
+
+ .title{
+  font-family: 'Roboto' sans-serif;
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  text-transform: none;
+}
+
+.intro{
+  position:relative;
+  width: 500px;
+  height: 500px;
+  background: none;
+  left: 31px;
+  top: -680px;
+}
+
+.intro{
+  font-family: 'Roboto' sans-serif;
+  color: #000000;
+  font-size: 20px;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+  text-transform: none;
+}
+
+.intro{
+
+    line-height: 2.5em;
+    height: 5em;
+    overflow: hidden;
+    white-space: nowrap ;
+    text-overflow: clip;
+    width: 100%;
+}
+
+.intro{
+  width: 704px;
+  height: 100px;
+  padding: 10px 1px;
+  box-sizing: border-box;
+  border: 2px solid #FF5E33;
+  border-radius: 4px;
+  background-color: none;
+  font-size: 16px;
+  resize: none;
+}
+
+
+.container{
+background-color: #0AFAEB;
+float: left;
+border: 5px solid black;
+padding: 150px;
+margin: 300px;
+}
+
+
+.container{
+  position: relative;
+  width: 725px;
+  height: 400px;
+  background: none;
+  left: -280px;
+  top: -100px;
+}
