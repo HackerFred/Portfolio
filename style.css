@@ -17,7 +17,7 @@ nav{
    width: 100%;
    position: absolute;
    top: 0;
-   left: 1150px;
+   left: -150px;
    padding: 20px 8%;
    display: flex;
    align-items: center;
@@ -61,7 +61,7 @@ nav ul li a{
 
 .profile{
   width: 600px;
-  border: 15px solid #FF3333;
+  border: 15px solid #D98880;
   padding: 50px;
   margin: 20px;
 }
@@ -73,7 +73,7 @@ nav ul li a{
   height: 500px;
   background: none;
   left: 55px;
-  top: -700px;
+  top: -600px;
 }
 
  .title{
@@ -89,8 +89,8 @@ nav ul li a{
   width: 500px;
   height: 500px;
   background: none;
-  left: 50px;
-  top: -640px;
+  left: 35px;
+  top: -1000px;
 }
 
 .intro{
@@ -116,7 +116,7 @@ nav ul li a{
   height: 100px;
   padding: 10px 1px;
   box-sizing: border-box;
-  border: 2px solid #FF5E33;
+  border: 2px solid #D98880;
   border-radius: 4px;
   background-color: none;
   font-size: 16px;
@@ -125,21 +125,20 @@ nav ul li a{
 
 
 .container{
-background-color: #0AFAEB;
-float: left;
+background-color: #F5B7B1;
+opacity: .8;
+height: 100px;
+width: 750px;
 border: 5px solid black;
 padding: 150px;
 margin: 300px;
-}
 
+}
 
 .container{
   position: relative;
-  width: 800px;
-  height: 350px;
-  background: none;
-  left: -270px;
-  top: -100px;
+  left: -285px;
+  top: -50px;
 }
 
 
@@ -159,7 +158,7 @@ margin: 300px;
   width: 100%;
   position: absolute;
   top: 0;
-  left: -1100px;
+  left: 165px;
   padding: 20px 8%;
   display: flex;
   align-items: center;
